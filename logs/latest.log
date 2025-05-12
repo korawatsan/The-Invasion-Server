@@ -1,0 +1,198 @@
+[13พ.ค.2568 02:27:35.055] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[13พ.ค.2568 02:27:35.062] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.7 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[13พ.ค.2568 02:27:35.680] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[13พ.ค.2568 02:27:35.779] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/D:/No%20Name%20Games/mc/The%20Invasion%20Server%20Pack/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[13พ.ค.2568 02:27:36.545] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\No Name Games\mc\The Invasion Server Pack\libraries\net\minecraftforge\fmlcore\1.20.1-47.3.0\fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[13พ.ค.2568 02:27:36.551] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\No Name Games\mc\The Invasion Server Pack\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.3.0\javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[13พ.ค.2568 02:27:36.555] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\No Name Games\mc\The Invasion Server Pack\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.3.0\lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[13พ.ค.2568 02:27:36.559] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file D:\No Name Games\mc\The Invasion Server Pack\libraries\net\minecraftforge\mclanguage\1.20.1-47.3.0\mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[13พ.ค.2568 02:27:37.221] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: playeranimator. Using Mod File: D:\No Name Games\mc\The Invasion Server Pack\mods\player-animation-lib-forge-1.0.2-rc1+1.20.jar
+[13พ.ค.2568 02:27:37.225] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 16 dependencies adding them to mods collection
+[13พ.ค.2568 02:27:42.369] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[13พ.ค.2568 02:27:42.382] [main/ERROR] [mixin/]: Mixin config palladiumcore-common.mixins.json does not specify "minVersion" property
+[13พ.ค.2568 02:27:42.385] [main/ERROR] [mixin/]: Mixin config palladiumcore.mixins.json does not specify "minVersion" property
+[13พ.ค.2568 02:27:42.433] [main/ERROR] [mixin/]: Mixin config entity_model_features.mixins.json does not specify "minVersion" property
+[13พ.ค.2568 02:27:42.464] [main/ERROR] [mixin/]: Mixin config vc_gliders-common.mixins.json does not specify "minVersion" property
+[13พ.ค.2568 02:27:42.469] [main/ERROR] [mixin/]: Mixin config vc_gliders.mixins.json does not specify "minVersion" property
+[13พ.ค.2568 02:27:42.694] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[13พ.ค.2568 02:27:42.696] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[13พ.ค.2568 02:27:42.698] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[13พ.ค.2568 02:27:42.821] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.20.0+mc1.20.1: 86 options available, 0 override(s) found
+[13พ.ค.2568 02:27:42.822] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[13พ.ค.2568 02:27:42.849] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[13พ.ค.2568 02:27:43.013] [main/INFO] [Embeddium/]: Loaded configuration file for Embeddium: 106 options available, 0 override(s) found
+[13พ.ค.2568 02:27:43.105] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[13พ.ค.2568 02:27:43.164] [main/WARN] [mixin/]: Reference map 'LesRaisinsAddon_1201.refmap.json' for lradd.mixins.json could not be read. If this is a development environment you can ignore this message
+[13พ.ค.2568 02:27:46.330] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 1 memory leak fixes!
+[13พ.ค.2568 02:27:46.331] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [biomeTemperatureLeak]
+[13พ.ค.2568 02:27:46.912] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13พ.ค.2568 02:27:50.307] [main/WARN] [oshi.util.platform.windows.PerfDataUtil/]: Failed to add PDH Counter: \Paging File(_Total)\% Usage, Error code: 0xC0000BB8
+[13พ.ค.2568 02:27:50.308] [main/WARN] [oshi.util.platform.windows.PerfCounterQueryHandler/]: Failed to add counter for PDH counter: \Paging File(_Total)\% Usage
+[13พ.ค.2568 02:27:50.308] [main/WARN] [oshi.util.platform.windows.PerfCounterQuery/]: Disabling further attempts to query Paging File.
+[13พ.ค.2568 02:27:50.325] [main/WARN] [oshi.util.platform.windows.WmiQueryHandler/]: COM exception: Invalid Class Win32_PerfRawData_PerfOS_PagingFile
+[13พ.ค.2568 02:27:50.437] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (18.24 s after launch)
+[13พ.ค.2568 02:27:50.614] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[13พ.ค.2568 02:27:50.615] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[13พ.ค.2568 02:27:50.721] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[13พ.ค.2568 02:27:50.721] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[13พ.ค.2568 02:27:52.621] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 2176 milliseconds
+[13พ.ค.2568 02:27:53.829] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=1 on palladiumcore-common.mixins.json:LightningBoltMixin::handler$zza000$tick exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[13พ.ค.2568 02:27:56.437] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[13พ.ค.2568 02:27:57.049] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[13พ.ค.2568 02:27:57.061] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[13พ.ค.2568 02:27:57.061] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[13พ.ค.2568 02:27:57.566] [modloading-worker-0/INFO] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Starting...
+[13พ.ค.2568 02:27:57.570] [modloading-worker-0/WARN] [me.treyruffy.betterf3.BetterF3Forge/]: [BetterF3] Not supported on dedicated server!
+[13พ.ค.2568 02:27:57.909] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[13พ.ค.2568 02:27:58.347] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[13พ.ค.2568 02:27:59.819] [main/INFO] [Moonlight/]: Initialized block sets in 21ms
+[13พ.ค.2568 02:28:01.003] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[13พ.ค.2568 02:28:01.187] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[13พ.ค.2568 02:28:01.235] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[13พ.ค.2568 02:28:01.257] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[13พ.ค.2568 02:28:01.259] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[13พ.ค.2568 02:28:01.270] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[13พ.ค.2568 02:28:01.271] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[13พ.ค.2568 02:28:01.273] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'sound_physics_remastered'
+[13พ.ค.2568 02:28:01.420] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[13พ.ค.2568 02:28:01.421] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[13พ.ค.2568 02:28:01.421] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[13พ.ค.2568 02:28:01.421] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[13พ.ค.2568 02:28:01.421] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[13พ.ค.2568 02:28:01.422] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[13พ.ค.2568 02:28:01.422] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[13พ.ค.2568 02:28:01.422] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[13พ.ค.2568 02:28:01.447] [main/INFO] [Moonlight/]: Initialized color sets in 22ms
+[13พ.ค.2568 02:28:02.172] [modloading-worker-0/INFO] [ShoulderSurfing/]: Registering plugin for Shoulder Surfing Reloaded (shouldersurfing)
+[13พ.ค.2568 02:28:02.183] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+[13พ.ค.2568 02:28:02.185] [modloading-worker-0/ERROR] [ShoulderSurfing/]: Failed to load plugin for Shoulder Surfing Reloaded (shouldersurfing)
+java.lang.BootstrapMethodError: java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at com.github.exopandora.shouldersurfing.plugin.ShoulderSurfingPlugin.register(ShoulderSurfingPlugin.java:26) ~[ShoulderSurfing-Forge-1.20.1-4.7.0.jar%23196!/:1.20.1-4.7.0]
+	at com.github.exopandora.shouldersurfing.plugin.PluginLoader.loadPlugin(PluginLoader.java:33) ~[ShoulderSurfing-Forge-1.20.1-4.7.0.jar%23196!/:1.20.1-4.7.0]
+	at com.github.exopandora.shouldersurfing.forge.plugin.PluginLoaderForge.loadPlugins(PluginLoaderForge.java:23) ~[ShoulderSurfing-Forge-1.20.1-4.7.0.jar%23196!/:1.20.1-4.7.0]
+	at com.github.exopandora.shouldersurfing.forge.ShoulderSurfingForge.loadComplete(ShoulderSurfingForge.java:73) ~[ShoulderSurfing-Forge-1.20.1-4.7.0.jar%23196!/:1.20.1-4.7.0]
+	at net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%2352!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114) ~[javafmllanguage-1.20.1-47.3.0.jar%23213!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125) ~[fmlcore-1.20.1-47.3.0.jar%23212!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+Caused by: java.lang.RuntimeException: Attempted to load class net/minecraft/client/Minecraft for invalid dist DEDICATED_SERVER
+	at net.minecraftforge.fml.loading.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[fmlloader-1.20.1-47.3.0.jar%2369!/:1.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.10.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.10.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	... 17 more
+[13พ.ค.2568 02:28:02.321] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[13พ.ค.2568 02:28:02.335] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[13พ.ค.2568 02:28:02.547] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[13พ.ค.2568 02:28:02.550] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[13พ.ค.2568 02:28:02.988] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13พ.ค.2568 02:28:02.998] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
+[13พ.ค.2568 02:28:02.999] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[13พ.ค.2568 02:28:03.250] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[13พ.ค.2568 02:28:03.574] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/No%20Name%20Games/mc/The%20Invasion%20Server%20Pack/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23211!/assets/.mcassetsroot' uses unexpected schema
+[13พ.ค.2568 02:28:03.575] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/D:/No%20Name%20Games/mc/The%20Invasion%20Server%20Pack/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23211!/data/.mcassetsroot' uses unexpected schema
+[13พ.ค.2568 02:28:03.641] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.20.1-2.5.26 Target: 1.20.1-2.5.30
+[13พ.ค.2568 02:28:03.655] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://update.maxhenkel.de/forge/sound_physics_remastered
+[13พ.ค.2568 02:28:03.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.20.1-1.4.8 Target: 1.20.1-1.4.13
+[13พ.ค.2568 02:28:03.868] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[13พ.ค.2568 02:28:03.920] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.49 Target: null
+[13พ.ค.2568 02:28:03.920] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterf3] Starting version check at https://api.modrinth.com/updates/betterf3/forge_updates.json
+[13พ.ค.2568 02:28:04.722] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [betterf3] Found status: UP_TO_DATE Current: 7.0.2 Target: null
+[13พ.ค.2568 02:28:31.510] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 8 recipes
+[13พ.ค.2568 02:28:31.612] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1382 advancements
+[13พ.ค.2568 02:28:31.654] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[13พ.ค.2568 02:28:31.658] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[13พ.ค.2568 02:28:32.057] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[13พ.ค.2568 02:28:32.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[13พ.ค.2568 02:28:32.058] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[13พ.ค.2568 02:28:32.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[13พ.ค.2568 02:28:32.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[13พ.ค.2568 02:28:32.180] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[13พ.ค.2568 02:28:32.286] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13พ.ค.2568 02:28:32.286] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[13พ.ค.2568 02:28:32.287] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13พ.ค.2568 02:28:32.287] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[13พ.ค.2568 02:28:32.326] [Server thread/INFO] [farsightedmobs/]: Loading config
+[13พ.ค.2568 02:28:32.526] [Server thread/INFO] [spark/]: Starting background profiler...
+[13พ.ค.2568 02:28:32.539] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[13พ.ค.2568 02:28:32.615] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[13พ.ค.2568 02:28:33.035] [Server thread/INFO] [incontrol/]: Reading rules from areas.json
+[13พ.ค.2568 02:28:33.042] [Server thread/INFO] [incontrol/]: Reading rules from spawn.json
+[13พ.ค.2568 02:28:33.076] [Server thread/INFO] [incontrol/]: Reading rules from summonaid.json
+[13พ.ค.2568 02:28:33.078] [Server thread/INFO] [incontrol/]: Reading rules from loot.json
+[13พ.ค.2568 02:28:33.080] [Server thread/INFO] [incontrol/]: Reading rules from experience.json
+[13พ.ค.2568 02:28:33.081] [Server thread/INFO] [incontrol/]: Reading rules from phases.json
+[13พ.ค.2568 02:28:33.085] [Server thread/INFO] [incontrol/]: Reading rules from effects.json
+[13พ.ค.2568 02:28:33.088] [Server thread/INFO] [incontrol/]: Reading rules from breakevents.json
+[13พ.ค.2568 02:28:33.089] [Server thread/INFO] [incontrol/]: Reading rules from placeevents.json
+[13พ.ค.2568 02:28:33.091] [Server thread/INFO] [incontrol/]: Reading rules from rightclicks.json
+[13พ.ค.2568 02:28:33.093] [Server thread/INFO] [incontrol/]: Reading rules from leftclicks.json
+[13พ.ค.2568 02:28:33.097] [Server thread/INFO] [incontrol/]: Reading rules from spawner.json
+[13พ.ค.2568 02:28:33.105] [Server thread/INFO] [incontrol/]: Reading rules from events.json
+[13พ.ค.2568 02:28:33.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[13พ.ค.2568 02:28:34.773] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13พ.ค.2568 02:28:34.773] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13พ.ค.2568 02:28:34.774] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13พ.ค.2568 02:28:34.774] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[13พ.ค.2568 02:28:35.146] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[13พ.ค.2568 02:28:35.645] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 51%
+[13พ.ค.2568 02:28:36.099] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2955 ms
+[13พ.ค.2568 02:28:36.099] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (3.794s)! For help, type "help"
+[13พ.ค.2568 02:28:36.165] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[13พ.ค.2568 02:28:36.166] [Server thread/INFO] [com.technicboyman.nobz.nobabyzombies1_20_1forge.Nobabyzombies1_20_1forge/]: HELLO from server starting
+[13พ.ค.2568 02:28:36.166] [Server thread/INFO] [net.zach.bulletarmorenchant.BulletArmorEnchant/]: HELLO from server starting
+[13พ.ค.2568 02:28:36.211] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 8240 bytes (in 1 string chunks with the size of 10000)
+[13พ.ค.2568 02:28:36.212] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13พ.ค.2568 02:28:36.224] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
+[13พ.ค.2568 02:28:36.227] [Server thread/WARN] [ModernFix/]: Dedicated server took 64.027 seconds to load
+[13พ.ค.2568 02:34:35.670] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roxalia[/100.93.71.59:52029] logged in with entity id 176 at (4.446639624442886, 57.0, -215.42147919896394)
+[13พ.ค.2568 02:34:36.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia joined the game
+[13พ.ค.2568 02:34:39.639] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Roxalia (18)
+[13พ.ค.2568 02:34:39.645] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Roxalia
+[13พ.ค.2568 02:34:39.648] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4070ms or 81 ticks behind
+[13พ.ค.2568 02:34:40.385] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 130a3833-b6cd-3989-a9d6-7ff9f98ffc5c
+[13พ.ค.2568 02:34:41.359] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 130a3833-b6cd-3989-a9d6-7ff9f98ffc5c
+[13พ.ค.2568 02:34:41.397] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Roxalia (130a3833-b6cd-3989-a9d6-7ff9f98ffc5c) successfully connected to voice chat
+[13พ.ค.2568 02:38:13.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia was slain by Zombie
+[13พ.ค.2568 02:39:12.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia was slain by Zombie
+[13พ.ค.2568 02:39:39.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia was killed by Zombie using magic
+[13พ.ค.2568 02:40:13.109] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia tried to swim in lava
+[13พ.ค.2568 02:41:52.543] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roxalia lost connection: Disconnected
+[13พ.ค.2568 02:41:52.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia left the game
+[13พ.ค.2568 02:41:52.547] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Roxalia
+[13พ.ค.2568 03:09:56.936] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@5861586c[id=<null>,name=Roxalia,properties={},legacy=false] (/172.25.96.1:55560) lost connection: Disconnected
+[13พ.ค.2568 03:10:03.000] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roxalia[/172.25.96.1:55567] logged in with entity id 11432 at (6.34332476388588, 57.875, -216.69999998807907)
+[13พ.ค.2568 03:10:03.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia joined the game
+[13พ.ค.2568 03:10:03.785] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Roxalia (18)
+[13พ.ค.2568 03:10:03.786] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Roxalia
+[13พ.ค.2568 03:10:04.740] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 130a3833-b6cd-3989-a9d6-7ff9f98ffc5c
+[13พ.ค.2568 03:10:05.740] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 130a3833-b6cd-3989-a9d6-7ff9f98ffc5c
+[13พ.ค.2568 03:10:05.748] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Roxalia (130a3833-b6cd-3989-a9d6-7ff9f98ffc5c) successfully connected to voice chat
+[13พ.ค.2568 03:10:07.796] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roxalia lost connection: Disconnected
+[13พ.ค.2568 03:10:07.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia left the game
+[13พ.ค.2568 03:10:07.798] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Roxalia
+[13พ.ค.2568 03:10:26.076] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Roxalia[/172.25.96.1:55637] logged in with entity id 11860 at (6.34332476388588, 57.875, -216.69999998807907)
+[13พ.ค.2568 03:10:26.092] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia joined the game
+[13พ.ค.2568 03:10:26.885] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of Roxalia (18)
+[13พ.ค.2568 03:10:26.917] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to Roxalia
+[13พ.ค.2568 03:10:27.497] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 130a3833-b6cd-3989-a9d6-7ff9f98ffc5c
+[13พ.ค.2568 03:10:28.496] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 130a3833-b6cd-3989-a9d6-7ff9f98ffc5c
+[13พ.ค.2568 03:10:28.505] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player Roxalia (130a3833-b6cd-3989-a9d6-7ff9f98ffc5c) successfully connected to voice chat
+[13พ.ค.2568 03:10:30.896] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Roxalia lost connection: Disconnected
+[13พ.ค.2568 03:10:30.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Roxalia left the game
+[13พ.ค.2568 03:10:30.897] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client Roxalia

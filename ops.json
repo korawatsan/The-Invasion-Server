@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "a6a2b774-f400-360f-bc95-1aeaf1b86c56",
+    "name": "ItMineMind",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "7dd5c1c8-1613-3aea-be1b-c789fbb6fce8",
+    "name": "tonkao",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f812b86f-f22d-4ea5-a731-db5a2d694615",
+    "name": "ItMineMind",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "130a3833-b6cd-3989-a9d6-7ff9f98ffc5c",
+    "name": "Roxalia",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

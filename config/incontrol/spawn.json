@@ -1,0 +1,23 @@
+[
+  {
+    "mob": ["minecraft:skeleton","minecraft:zombie"],
+    "result": "allow",
+    "seesky": true,
+    "maxlight": 15,
+    "phase": "nighttime",
+    "speedmultiply": 1.5
+  },
+  {
+    "hostile": true,
+    "result": "allow",
+    "phase": "nighttime",
+    "speedmultiply": 1.5
+  },
+  {
+ 
+     "mob": ["minecraft:skeleton","minecraft:zombie"],
+     "incontrol": false,
+     "result": "deny"
+ 
+  }
+]

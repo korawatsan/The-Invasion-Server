@@ -1,0 +1,9 @@
+# Az Xmx és Xms beállítja a maximális és minimális RAM használatot, sorrendben.  
+# Bármilyen számot elfogadnak, amelyet egy M vagy G követ.  
+# M jelentése Megabájt, G jelentése Gigabájt.  
+# Például, ha a maximumot 3GB-ra szeretnéd állítani: -Xmx3G  
+# Ha a minimumot 2,5GB-ra szeretnéd állítani: -Xms2500M  
+# Egy jó alapértelmezett érték egy modolt szerverhez 4GB.  
+
+-Xms4G
+-Xmx8G

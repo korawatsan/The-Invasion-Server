@@ -1,0 +1,14 @@
+[
+  {
+    "name": "after_day1",
+    "conditions": {
+        "mindaycount": 1
+    }
+  },
+  {
+    "name": "nighttime",
+    "conditions": {
+        "mintime": 12500
+    }
+  }
+]

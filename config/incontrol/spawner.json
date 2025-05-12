@@ -1,0 +1,41 @@
+[
+ 
+{
+ 
+"phase": "after_day1",
+ 
+"mob": "minecraft:zombie",
+ 
+"persecond": 1,
+ 
+"attempts": 20,
+ 
+"amount": {
+ 
+"minimum": 70,
+ 
+"maximum": 120
+ 
+},
+ 
+"conditions": {
+ 
+"dimension": "minecraft:overworld",
+ 
+"norestrictions": true,
+ 
+"mindist": 40,
+ 
+"maxdist": 200,
+ 
+"minheight": 60,
+ 
+"maxheight": 256,
+ 
+"maxthis": 150
+ 
+}
+ 
+}
+ 
+]

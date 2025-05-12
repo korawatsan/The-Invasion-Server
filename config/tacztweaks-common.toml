@@ -1,0 +1,22 @@
+
+[movement]
+	#Allowed Values: ALLOW, STOP_SPRINTING, DISABLED
+	shootWhileSprinting = "STOP_SPRINTING"
+	sprintWhileReloading = true
+	reloadWhileShooting = true
+	#Default: 25.0
+	#Range: 0.0 ~ 90.0
+	crawlPitchUpperLimit = 25.0
+	#Default: -10.0
+	#Range: -90.0 ~ 0.0
+	crawlPitchLowerLimit = -10.0
+	dynamicCrawlPitchLimit = false
+
+[misc]
+	vsCollisionCompat = false
+	vsExplosionCompat = false
+	firstAidCompat = true
+	crawlVisualTweak = true
+	#For better compatibility
+	disableTaCZCrawl = false
+
